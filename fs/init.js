@@ -5,7 +5,10 @@ let ADS1X15_I2C_addresss = 0x48 ;
 
 // Initialize Adafruit ADS1015 library
 let ads = Adafruit_ADS1015.create(ADS1X15_I2C_addresss);
-	  
+
+// Initialize Adafruit ADS1115 library
+//let ads = Adafruit_ADS1015.create_ads1115(ADS1X15_I2C_addresss);
+
 // The ADC input range (or gain) can be changed via the following
 // functions, but be careful never to exceed VDD +0.3V max, or to
 // exceed the upper and lower limits if you adjust the input range!
